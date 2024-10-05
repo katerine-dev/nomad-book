@@ -4,5 +4,6 @@ CREATE TABLE usuario (
     nome       TEXT NOT NULL,
     senha      TEXT NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT now(),
-    updated_at TIMESTAMP NOT NULL DEFAULT now()
+    updated_at TIMESTAMP NOT NULL DEFAULT now(),
+    deleted_at TIMESTAMP
 );
